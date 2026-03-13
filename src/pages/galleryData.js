@@ -26,15 +26,7 @@ export const services = [
     img: wedding,
     gallery: [
       wedding1,wedding2,wedding3,wedding4,
-      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc", // Bridal Portrait
-      "https://images.unsplash.com/photo-1532712938310-34cb3982ef74", // Rings & Detail
-      "https://images.unsplash.com/photo-1519225495806-7d52f671ec46", // Wedding Vows
-      "https://images.unsplash.com/photo-1550005816-091611377994", // Reception
-      "https://images.unsplash.com/photo-1520854221256-17451cc331bf", // Candid Laugh
-      "https://images.unsplash.com/photo-1510076857177-7470076d4098", // Decor
-      "https://images.unsplash.com/photo-1465495910483-0d674b0b7537", // First Dance
-      "https://images.unsplash.com/photo-1583939003579-730e3918a45a"  // Exit Scene
-    ]
+     ]
   },
   {
     id: "couple",
@@ -43,15 +35,7 @@ export const services = [
     img: couple,
     gallery: [
       couple1,couple2,couple3,
-      "https://images.unsplash.com/photo-1494774157365-9e04c6720e47", // Sunset Walk
-      "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2", // Close-up chemistry
-      "https://images.unsplash.com/photo-1537633552985-df8429e8048b", // Urban Couple
-      "https://images.unsplash.com/photo-1464519363911-913fa2f40050", // Vintage Vibe
-      "https://images.unsplash.com/photo-1522673607200-164883eeba3c", // Forest Session
-      "https://images.unsplash.com/photo-1542038784456-1ea8e935640e", // Beach Hug
-      "https://images.unsplash.com/photo-1520333789090-1afc82db536a", // Editorial Pose
-      "https://images.unsplash.com/photo-1517598024396-46c53fb391a1"  // Rainy Night Story
-    ]
+     ]
   },
   {
     id: "legacy",
@@ -60,15 +44,7 @@ export const services = [
     img: legacy,
     gallery: [
       legacy1,legacy2,legacy3,
-      "https://images.unsplash.com/photo-1511895426328-dc8714191300", // Grandparents
-      "https://images.unsplash.com/photo-1476703993599-0035a21b17a9", // Outdoor picnic
-      "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368", // Newborn
-      "https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb", // Laughter
-      "https://images.unsplash.com/photo-1536640719357-73d1969ce7ed", // Generations hand-in-hand
-      "https://images.unsplash.com/photo-1508808787069-421e7986016e", // Candid Morning
-      "https://images.unsplash.com/photo-1516627145497-ae6968895b74", // Kids Playing
-      "https://images.unsplash.com/photo-1484981138541-3d074aa97716"  // Black and White Legacy
-    ]
+      ]
   },
   
 ];

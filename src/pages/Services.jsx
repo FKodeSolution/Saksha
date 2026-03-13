@@ -15,7 +15,7 @@ const Services = () => {
       accent: "Portraits",
       subtitle: "The Electricity",
       description: "Not a performance. A session designed to document the quiet tension and comfort between two people who chose each other.",
-      image: "https://images.unsplash.com/photo-1522673607200-164883eeba48",
+      image: "https://images.unsplash.com/photo-1520854221256-17451cc331bf",
       meta: ["3 Hour Session", "Location Scouting", "Private Online Gallery"]
     },
     {
