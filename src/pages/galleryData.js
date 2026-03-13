@@ -70,19 +70,5 @@ export const services = [
       "https://images.unsplash.com/photo-1484981138541-3d074aa97716"  // Black and White Legacy
     ]
   },
-  {
-    id: "editorial",
-    title: "Editorial & Fashion",
-    description: "Sophisticated visuals for brands and individuals who seek high-fashion aesthetics.",
-    img: editorial,
-    gallery: [
-      editorial1,editorial2,editorial3,
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b",
-      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
-      "https://images.unsplash.com/photo-1529139513075-123df28d3e59",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
-    ]
-  }
+  
 ];

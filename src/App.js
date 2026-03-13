@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"; // Make sure to save the Footer code I gave you in components/Footer.jsx
 import Home from "./pages/HomePage";
@@ -11,12 +11,13 @@ import Gallery from "./pages/gallery"; // Recommended for multi-page React apps
 
 function App() {
   return (
-    <BrowserRouter>
-      {/* Automatically scrolls to top when you change pages */}
-      <ScrollToTop /> 
+
+      
       
       <div className="flex flex-col min-h-screen">
+       
         <Navbar />
+        
 {/* Automatically scrolls to top when you change pages */}
       <ScrollToTop /> 
         <main className="flex-grow">
@@ -32,7 +33,7 @@ function App() {
 
         <Footer />
       </div>
-    </BrowserRouter>
+  
   );
 }
 

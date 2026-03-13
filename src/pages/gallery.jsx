@@ -63,6 +63,7 @@ const Gallery = () => {
       lenis.destroy();
     };
   }, [selectedService]);
+  
 
   return (
     <div ref={mainRef} className="bg-[#FAF9F6] min-h-screen pt-32 pb-20 text-[#1A1A1A]">
