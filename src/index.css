@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,153 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 1.2s ease-out forwards;
+}@layer utilities {
+  @keyframes revealUp {
+    0% { 
+      transform: translateY(110%) skewY(10deg); 
+      opacity: 0; 
+    }
+    100% { 
+      transform: translateY(0) skewY(0deg); 
+      opacity: 1; 
+    }
+  }
+
+  @keyframes growLine {
+    0% { width: 0; opacity: 0; }
+    100% { width: 96px; opacity: 1; }
+  }
+
+  .animate-revealUp {
+    animation: revealUp 1.2s cubic-bezier(0.2, 1, 0.3, 1) both;
+  }
+}
+
+/* FONT SUGGESTION: 
+   Use "Cormorant Garamond" for the Serif 
+   or "Tenor Sans" for a clean look. 
+*/
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.animate-shine {
+  animation: shine 1.5s infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}@layer utilities {
+  /* Text reveal rising up from a hidden mask */
+  @keyframes revealUp {
+    0% { transform: translateY(110%) skewY(10deg); opacity: 0; }
+    100% { transform: translateY(0) skewY(0deg); opacity: 1; }
+  }
+
+  /* Shimmer / Metallic gold reflection effect */
+  @keyframes shimmer {
+    to { background-position: 200% center; }
+  }
+
+  /* Decorative line growing from 0 to full width */
+  @keyframes growLine {
+    0% { scale: 0 1; }
+    100% { scale: 1 1; }
+  }
+
+  /* Fading in from different directions */
+  @keyframes fadeInLeft {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Floating and Fading In for depth elements */
+  @keyframes floatFadeIn {
+    0% { opacity: 0; transform: translateY(30px) rotate(-3deg); }
+    50% { opacity: 0.15; transform: translateY(0) rotate(1deg); }
+    100% { opacity: 0.2; transform: translateY(0) rotate(0deg); }
+  }
+
+  /* Apply the animations using high-end cubic-beziers */
+  .animate-revealUp {
+    animation: revealUp 1.2s cubic-bezier(0.77, 0, 0.175, 1) both;
+  }
+
+  .animate-growLine {
+    animation: growLine 1.5s cubic-bezier(0.77, 0, 0.175, 1) both;
+  }
+
+  .animate-fadeInLeft {
+    animation: fadeInLeft 1.5s cubic-bezier(0.19, 1, 0.22, 1) both;
+  }
+
+  .animate-fadeInUp {
+    animation: fadeInUp 1.2s cubic-bezier(0.19, 1, 0.22, 1) both;
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-out both;
+  }
+
+  .animate-floatFadeIn {
+    animation: floatFadeIn 2.5s cubic-bezier(0.19, 1, 0.22, 1) both,
+               float 6s ease-in-out infinite 2.5s; /* Continues floating after fade in */
+  }
+
+  /* Continuation of the float animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(-1deg); }
+    50% { transform: translateY(-15px) rotate(1deg); }
+  }
+}@layer utilities {
+  @keyframes revealUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-30px) rotate(2deg); }
+  }
+
+  @keyframes float-reverse {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(30px) rotate(-2deg); }
+  }
+
+  .animate-revealUp {
+    animation: revealUp 1.5s cubic-bezier(0.19, 1, 0.22, 1) both;
+  }
+
+  .animate-float {
+    animation: float 8s ease-in-out infinite;
+  }
+
+  .animate-float-reverse {
+    animation: float-reverse 10s ease-in-out infinite;
+  }
 }

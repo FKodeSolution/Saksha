@@ -1,0 +1,86 @@
+/* Application.css */
+
+/* High-end Mask Reveal animation */
+@keyframes revealUp {
+  from {
+    transform: translateY(110%) skewY(8deg);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+/* Fading in from below */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fading in from Left */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Metallic Shimmer effect */
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+/* Atmospheric Floating detail */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(2deg);
+  }
+}
+
+/* Vertical Line Growth */
+@keyframes growLine {
+  from { transform: scaleY(0); transform-origin: top; }
+  to { transform: scaleY(1); transform-origin: top; }
+}
+
+/* Animations triggered immediately on load */
+.animate-fadeInUp {
+  animation: fadeInUp 1.2s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+
+.animate-fadeInLeft {
+  animation: fadeInLeft 1s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+
+.animate-revealUp {
+  animation: revealUp 1.5s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+
+.animate-growLine {
+  animation: growLine 1s ease-out both;
+}
+
+/* Animations intended to run infinitely */
+.animate-shine {
+  animation: shine 1.5s infinite;
+}
+
+.animate-floatSlow {
+  animation: floatSlow 8s ease-in-out infinite;
+}
