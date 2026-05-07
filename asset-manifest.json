@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Saksha/static/css/main.5c351783.css",
+    "main.js": "/Saksha/static/js/main.edd29080.js",
+    "static/js/453.e9e7ec89.chunk.js": "/Saksha/static/js/453.e9e7ec89.chunk.js",
+    "static/media/1000143494.jpg.jpeg": "/Saksha/static/media/1000143494.jpg.a2242dffcda83dc6c72a.jpeg",
+    "static/media/1000142252.jpg.jpeg": "/Saksha/static/media/1000142252.jpg.7157849779fe54602dcf.jpeg",
+    "static/media/1000128970.jpg.jpeg": "/Saksha/static/media/1000128970.jpg.e73ab9b8db8a4349671e.jpeg",
+    "static/media/1000128003.jpg.jpeg": "/Saksha/static/media/1000128003.jpg.cddd55ba9f506bf8be79.jpeg",
+    "index.html": "/Saksha/index.html",
+    "main.5c351783.css.map": "/Saksha/static/css/main.5c351783.css.map",
+    "main.edd29080.js.map": "/Saksha/static/js/main.edd29080.js.map",
+    "453.e9e7ec89.chunk.js.map": "/Saksha/static/js/453.e9e7ec89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c351783.css",
+    "static/js/main.edd29080.js"
+  ]
+}
