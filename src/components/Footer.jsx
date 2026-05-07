@@ -49,9 +49,17 @@ const Footer = () => {
             </h4>
 
             <ul className="space-y-2 text-sm font-light">
-              <li className="hover:text-[#B09A63] transition-colors cursor-pointer">
-                Instagram
-              </li>
+              <ul className="space-y-2 text-sm font-light">
+  <li className="hover:text-[#B09A63] transition-colors cursor-pointer">
+    <a
+      href="https://www.instagram.com/saksha_stories?igsh=MzdjOGl1b3ZsMnR1"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Instagram
+    </a>
+  </li>
+</ul>
               <li className="hover:text-[#B09A63] transition-colors cursor-pointer">
                 Pinterest
               </li>
